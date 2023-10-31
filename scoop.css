@@ -1,0 +1,121 @@
+.body{
+    font-size: larger;
+    background-color: rgb(246, 241, 238);
+
+}
+.main{
+    font-size: 50px;
+    color: #ED7D31;
+}
+.image{
+    width:100% auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#6C5F5B;
+    width: 100% auto;
+    padding: 1px 10px;
+    margin: 0 auto;
+    top: 0; 
+    margin: 0 auto;
+    z-index: 100; 
+    position: sticky;
+}
+.nav-options {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px; 
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 8px;
+    font-size: 14px;
+    text-align: center; /* Center the text horizontally */
+    line-height: 30px; /* Adjust this value to vertically center the text */
+}
+.nav-options a:hover {
+    background-color: #4F4A45;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 360px;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+    position: relative;
+}
+.headings{
+    color: #786355;
+    font-size: 30px;
+}
+.contents{
+    font-size: 20px;
+    color:gray;
+}
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the text for "Contact us" */
+.contact-text {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    
+}
+
+/* Show the dropdown content when hovering over the "Contact us" text */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
